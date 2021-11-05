@@ -1,5 +1,4 @@
 import React from 'react';
-// import GoogleMapReact from 'google-maps-react-17';
 import GoogleMapReact from 'google-map-react';
 import BusIcon from '../assets/icons/bus.svg';
 import { drivers } from '../data/driver.json';
