@@ -23,7 +23,7 @@ export default function Header() {
     console.log('locationInterval', locationInterval);
 
     return () => clearInterval(locationInterval);
-  }, []);
+  }, [triggerLocation]);
 
   return (
     <div className="header-container">
