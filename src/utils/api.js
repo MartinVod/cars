@@ -14,6 +14,7 @@ export async function getLocation() {
     response = await API();
     response.success = true;
   } catch (err) {
+    console.log('err',err)
     response = err.response; // pulls the response from the error
     if (response) response.success = false;
   }

@@ -4,7 +4,6 @@ import GoogleMapReact from 'google-map-react';
 import BusIcon from '../assets/icons/bus.svg';
 import { drivers } from '../data/driver.json';
 
-console.log('drivers', drivers);
 
 const DriversMap = ({ center = { lat: 35.2, lng: 31.8 }, zoom = 11 }) => {
   return (

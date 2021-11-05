@@ -14,13 +14,11 @@ export default function Header() {
     if (res?.success && res?.data?.iss_position) {
       setLocation(res?.data?.iss_position);
     }
-    console.log('res', res);
   }, []);
 
   useEffect(() => {
     let locationInterval = setInterval(triggerLocation, 1000);
 
-    console.log('locationInterval', locationInterval);
 
     return () => clearInterval(locationInterval);
   }, [triggerLocation]);
