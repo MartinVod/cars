@@ -1,0 +1,41 @@
+.header-container {
+  height: 8vh;
+  background-color: #dbdfea;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container .text-header {
+  font-size: 30px;
+  color: black;
+  font-weight: 800;
+  font-family: 'Assistant', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-container .text-header .coordinate-value-container .coordinate-value {
+  color: #3eafde;
+  margin: 0 12px 0 3px;
+}
+
+@media (max-width: 1025px) {
+  .header-container .text-header {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .header-container .text-header {
+    font-size: 20px;
+  }
+}
+@media (max-width: 540px) {
+  .header-container .text-header {
+    font-size: 16px;
+  }
+  .header-container .text-header {
+    flex-direction: column;
+  }
+}

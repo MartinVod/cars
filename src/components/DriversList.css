@@ -1,0 +1,23 @@
+.list-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  padding: 0 0 0 10px;
+  overflow: scroll;
+}
+
+
+@media (max-width: 540px) {
+  .list-container{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 0;
+    margin: 8px 0  8px 0;
+   
+  }
+}

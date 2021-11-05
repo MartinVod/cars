@@ -1,0 +1,62 @@
+{"drivers": [
+  {
+      "id":1,
+      "name":"שאול שלמה",
+      "carNumber":"720-48-802",
+      "carType": "minibus",
+      "numOfSteats":17,
+      "inFocus": false,
+      "nickname": "SS",
+      "long": 31.86469216950988,
+      "lat":35.26263235904381,
+      "isActive":false
+
+  },
+  {
+      "id":2,
+      "name":"מנחם שלמה",
+      "carNumber":"720-48-802",
+      "carType": "taxi",
+      "numOfSteats":5,
+      "inFocus": false,
+      "nickname": "MS",
+      "isActive":false
+  },
+  {
+      "id":3,
+      "name":"יוסף יצחק רוזן",
+      "carNumber":"720-48-802",
+      "carType": "bus",
+      "numOfSteats":9,
+      "inFocus": false,
+      "nickname": "YR",
+      "long": 31.86469216950988,
+      "lat":35.26263235904381,
+      "isActive":false
+  },
+  {
+      "id":4,
+      "name":" לאה בלומה",
+      "carNumber":"720-48-802",
+      "carType": "bus",
+      "numOfSteats":9,
+      "inFocus": false,
+      "nickname": "LB",
+      "long": 31.86469216950988,
+      "lat":35.26263235904381,
+      "isActive":false
+  },
+  {
+      "id":5,
+      "name":" דבורה ריטרמן",
+      "carNumber":"960-48-815",
+      "carType": "taxi",
+      "numOfSteats":10,
+      "inFocus": false,
+      "nickname": "DR",
+      "long": 31.86469216950988,
+      "lat":35.26263235904381,
+      "isActive":false
+  }
+
+]}

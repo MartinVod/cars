@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+
+div , p , span{
+  direction: 'rtl';
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.app-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.app-header{
+  width: 95vw;
+  margin: 7px 0 7px 0;
+}
+
+.app-body{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+}
+
+.map-container{
+  height: 80vh;
+  width: 70vw;
+}
+
+.drivers-list{
+  width: 25vw;
+}
+
+
+@media (max-width: 540px) {
+  .app-body{
+    flex-direction: column-reverse;
+  }
+  .map-container{
+    height: 80vh;
+    width: 90vw;
+  }
+  .drivers-list{
+    width: 90vw;
+  }
+}
